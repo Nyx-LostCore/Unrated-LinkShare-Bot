@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Recommended
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8359090700:AAHlKY_FpcBtkk0HbVoEvbl0lp_ROM5o7Jo")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8359090700:AAGwTvBDP2AxcNgj2ro7XG258q7ZVpGm028")
 APP_ID = int(os.environ.get("APP_ID", os.environ.get("API_ID", "36428426")) or "0")
 API_HASH = os.environ.get("API_HASH", "30cba30aa38699e77ce264365e327528")
 
